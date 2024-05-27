@@ -164,6 +164,8 @@ class _GoogleMapPageState extends State<GoogleMapPage> {
     return nearestLocation;
   }
 
+  //for calculadting distance between two points
+
   double _calculateDistance(
     double lat1,
     double lon1,
